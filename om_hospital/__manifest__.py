@@ -3,18 +3,19 @@
 
 
 {
-    'name': 'Duplicated Contacts',
+    'name': 'Hospital-Management',
     'version': '1.3',
     'category': 'Hidden',
     'description': """
-Duplicated Contacts To Add Fields To Contact view.
+Hospital.
 ===================================================
 """,
-    'depends': ['base'],
+    'depends': [
+        'mail'
+    ],
     'data': [
         'security/ir.model.access.csv',
-        #'views/dup_contact.xml',
-        'views/contact.xml',
+        'views/hospital.xml',
     ],
     'sequence':'-100',
     'demo': [
