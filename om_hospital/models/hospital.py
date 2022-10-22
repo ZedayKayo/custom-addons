@@ -1,5 +1,4 @@
 from email.policy import default
-from typing_extensions import Required
 from odoo import fields,models
 
 class HospitalPatient(models.Model):
